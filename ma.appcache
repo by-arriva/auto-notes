@@ -1,0 +1,13 @@
+﻿CACHE MANIFEST
+#version 1.0.0
+CACHE:
+arriva.html
+icon.png
+back.png
+new.png
+del.png
+tag.png
+splash.png
+NETWORK:
+FALLBACK:
+/ 404.html
