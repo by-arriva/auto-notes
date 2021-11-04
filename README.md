@@ -1,7 +1,7 @@
 # auto-notes
 Простое HTML5 приложение (WebApp) заметок для iPhone 5s в оффлайн режиме
 
-![](https://user-images.githubusercontent.com/87068231/124927349-372cae00-e007-11eb-8574-40fcdac7f3fb.png)
+![](_temp.png)
 ## Демонстрация в браузере
 [auto-notes](https://by-arriva.github.io/auto-notes/)
 ## Зачем
