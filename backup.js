@@ -3,7 +3,7 @@ function del(){
 		localStorage.clear();
 	}
 }
-function clear(){
+function cle(){
 	text.value = "";
 }
 function imp(){
