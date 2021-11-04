@@ -1,0 +1,30 @@
+﻿<! DOCTYPE html>
+<html manifest = "ma.appcache" lang="ru">
+<head>
+	<title>Auto notes</title>
+	<link rel="apple-touch-icon" href="icon.png">
+	<link rel="apple-touch-startup-image" href="splash.png">
+	<meta name="apple-mobile-web-app-title" content="Audi 80">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="default">
+	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<link href="index.css" rel="stylesheet">
+</head> 
+<body>
+	<div class=panel>
+		Audi 80
+		<img class=new src="new.png" onclick=openNote()></img>
+	</div>
+	<div id=items></div>
+	<div id=edit>
+		<div id=panel>
+			.
+			<img class=back src="back.png" onclick=closeNote()></img>
+			<span class=done onclick=doneNote()>Готово</span>
+		</div>
+		<textarea id=note spellcheck="false"></textarea>
+	</div>
+</body>
+</html>
+<script src="index.js"></script>
