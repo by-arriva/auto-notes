@@ -88,7 +88,8 @@ html, body {
 .date {
 	font-size: 12px;
 	color: #7f7f7f;
-	padding: 0px 12px 6px 12px;
+	padding-bottom: 6px;
+	margin: 0px 12px;
 	border-bottom: .5px solid #b3b3b3;
 }
 .count {
